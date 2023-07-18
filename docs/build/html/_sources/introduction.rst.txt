@@ -7,6 +7,14 @@ This is a (dummy) collection of math tools i often use.
 
 This is also an example code to test the automatic building of a documentation, using  Sphinx and Readthedocs.
 
+.. nbgallery::
+    :caption: This is a thumbnail gallery:
+    :name: rst-gallery
+    :glob:
+    :reversed:
+
+    gallery/*
+
 
 RST format
 ***********

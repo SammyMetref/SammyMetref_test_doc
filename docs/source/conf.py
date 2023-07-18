@@ -38,7 +38,9 @@ master_doc = 'index'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
-    'myst_parser'
+    'myst_parser',
+    "nbsphinx",
+    "sphinx_gallery.load_style",
 ]
 
 

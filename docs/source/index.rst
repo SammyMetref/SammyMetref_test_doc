@@ -8,9 +8,20 @@ Welcome to SammyMetref_test_doc's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Get started
 
    introduction
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Results
+
+   intro
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Scripts
+
    modules
 
 Indices and tables
