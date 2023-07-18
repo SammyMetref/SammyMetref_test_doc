@@ -12,7 +12,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../..'))
+sys.path.insert(0, os.path.abspath('../../src/'))
 
 
 # this is to tell reathedocs not to try to document numpy which is external.
@@ -20,7 +20,7 @@ autodoc_mock_imports = ['numpy']
 
 # -- Project information -----------------------------------------------------
 
-project = 'SammyMetref_test_doc'
+project = 'SammyMetref_test_doc_src'
 copyright = '2023, Sam'
 author = 'Sam'
 
@@ -67,8 +67,8 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'classic'
-#html_theme = 'sphinx_rtd_theme'
+#html_theme = 'classic'
+html_theme = 'sphinx_rtd_theme'
 
 
 # Add any paths that contain custom static files (such as style sheets) here,

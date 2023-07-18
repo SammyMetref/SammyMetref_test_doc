@@ -1,6 +1,7 @@
-SammyMetref_test_doc
-====================
+src
+===
 
 .. toctree::
    :maxdepth: 4
 
+   srcpy
